@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	gap: 10px;
+	width: 400px;
+	margin: 20px auto auto auto;
+}
+
+form input {
+	border: solid 1px lightgrey;
+	caret-color: #4491ca;
+	outline: none;
+	padding: 10px;
+	outline: none;
+}
+
+form p {
+	color: #4491ca;
+	font-size: 0.8em;
+}
+
+input[type="submit"], input[type="button"] {
+	cursor: pointer;
+}
+
+textarea {
+	border: solid 1px lightgrey;
+	outline: none;
+	resize: none;
+	padding: 10px;
+}
+
+select {
+	border: solid 1px lightgrey;
+	outline: none;
+	padding: 10px;
+}
+
+@media screen and (max-width: 760px) {
+	form {
+		width: 60vw;
+	}
+}
